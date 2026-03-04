@@ -1,1 +1,1 @@
-worker: python Sl-translation.py
+web: gunicorn Sl-translation:app
